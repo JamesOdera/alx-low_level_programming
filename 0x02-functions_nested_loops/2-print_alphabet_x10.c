@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - Entry point
+ * print_alphabet_x10 - a function that prints 10 times
  *
  * Return: x10 a-z
  */
