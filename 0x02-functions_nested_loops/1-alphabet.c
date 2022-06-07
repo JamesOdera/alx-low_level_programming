@@ -1,12 +1,10 @@
 #include "main.h"
-
 /**
- * main - Entry point
+ * print_alphabet - a function that prints the alphabet
  *
  * Return: always 0 (Success)
  */
-
-void print_alphabet(void);
+void print_alphabet(void)
 {
 	int n;
 
