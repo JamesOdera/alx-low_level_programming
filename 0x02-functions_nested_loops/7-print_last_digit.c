@@ -1,14 +1,14 @@
 #include "main.h"
 /**
  * print_last_digit - a fxn that prints ld of a number
- * @xld: number's ld result
+ * @nld: number's ld result
  * Return: value of ld
  */
-int print_last_digit(int xld)
+int print_last_digit(int nld)
 {
 	int pld;
 
-	pld = (xld % 10);
+	pld = (nld % 10);
 
 	if (pld < 0)
 	{
