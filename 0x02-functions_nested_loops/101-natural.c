@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 /**
  * main - list natural nos below 1024
@@ -13,6 +14,7 @@ int main(void)
 		if ((i % 3) == 0 || (i % 5) == 0)
 			sum += i;
 	}
+
 	printf("%d", sum);
 	return (0);
 }
