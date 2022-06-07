@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * _abs - a fxn that computes absolute value of int
+ * _abs - a fxn that computes absolute val of int
  * @ab: interger input
- * Return: absolute value of ab
+ * Return: absolute val of ab
  */
 int _abs(int ab)
 {
