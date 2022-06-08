@@ -1,12 +1,10 @@
 #include <stdio.h>
-#include "main.h"
+
 /**
  * main - causes an infinite loop
- *
- * "\\o/\n": just print
- *
  * Return: 0
  */
+
 int main(void)
 {
 	int i;
