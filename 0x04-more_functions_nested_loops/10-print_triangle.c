@@ -5,7 +5,7 @@
  * @size: size of the triangle
  */
 
-void print _triangle(int size)
+void print_triangle(int size)
 {
 	int hash, index;
 
