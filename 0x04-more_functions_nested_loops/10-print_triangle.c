@@ -3,7 +3,6 @@
 /**
  * print_triangle - prints triangle using # xter
  * @size: size of the triangle
- * Return: void
  */
 
 void print _triangle(int size)
