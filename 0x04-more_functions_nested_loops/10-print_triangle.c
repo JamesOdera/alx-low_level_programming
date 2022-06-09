@@ -30,6 +30,8 @@ void print _triangle(int size)
 			_putchar('\n');
 		}
 	}
-
-	_putchar('\n');
+	else
+	{
+		_putchar('\n');
+	}
 }
