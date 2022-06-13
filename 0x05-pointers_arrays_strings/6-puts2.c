@@ -1,0 +1,20 @@
+#include "main.h"
+
+/**
+ * puts2 - prints every other xter of str to stdout
+ * @str: string to print
+ * Return: void
+ */
+
+void puts2(char *str)
+{
+	int i = 0;
+
+	while (*(str + 1))
+	{
+		_putchar(*(str + i));
+		i = i + 2;
+	}
+
+	_putchar('\n');
+}
