@@ -8,7 +8,7 @@
  * Return: A pointer to the destination buffer @dest.
  */
 
-void *_memcpy(void *dest, void *src, size_t n)
+void *_memcpy(void *dest, void *src, unsigned int n)
 {
 	unsigned int i;
 	unsigned char *destination = dest;
