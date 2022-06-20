@@ -10,24 +10,17 @@ include "main.h"
 
 unsigned int _strspn(char *s, char *accept)
 {
-	unsigned int bytes = 0;
-	int i;
+	unsigned int i, j;
 
-	while (*s)
+	for (i = 0; s[i]; i++)
 	{
-		for (i = 0; accept[i]; i++)
+		for (j = 0; accept[j]; j++)
 		{
-			if (*s == accept[i])
-			{
-				bytes++;
+			if (s[i] == accept[j])
 				break;
-			}
-			else if (accept[i + 1] == '\0')
-				return (bytes);
 		}
-
-		s++
+		if (!accept[j])
+			break;
 	}
-
-	return (bytes);
+	return (i);
 }
