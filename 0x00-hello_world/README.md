@@ -6,7 +6,7 @@ An introductory project on:
 - How to get the size of a specific type using the unary operator `sizeof`
 - How to compile using `gcc`
 ## Requirements
-- Ubuntu 14.04 LTS
+- Ubuntu LTS latest version available
 - gcc latest version available
 ## File Descriptions
 ### Mandatory
