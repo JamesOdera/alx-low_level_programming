@@ -2,10 +2,13 @@
 ## About
 An introductory project on:
 - What is `main`
+- What happens when you type `gcc main.c`
 - How to print text using `printf`, `puts` and `putchar`
 - How to get the size of a specific type using the unary operator `sizeof`
 - How to compile using `gcc`
+- What is the official C coding style and how to check your code with betty-style
 ## Requirements
+-Allowed editors: `vi, vim, emacs`
 - Ubuntu LTS latest version available
 - gcc latest version available
 ## File Descriptions
