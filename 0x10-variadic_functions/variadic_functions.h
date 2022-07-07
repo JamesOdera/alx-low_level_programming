@@ -9,11 +9,11 @@
  * @f: print function
  */
 
-typedef struct printer
+typedef struct print
 {
-	char *symbol;
-	void (*print)(va_list arg);
-} printer_t;
+	char *t;
+	void (*f)(va_list);
+} print_t;
 
 int _putchar(char);
 int sum_them_all(const unsigned int n, ...);
